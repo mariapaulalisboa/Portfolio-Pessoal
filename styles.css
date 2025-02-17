@@ -277,6 +277,13 @@ aside .social a:hover {
     color: whitesmoke;
 }
 
+#projects .section-intro small {
+    display: none;
+    margin-bottom: 10px;
+    font-size: 0.6rem;
+    color: gray;
+}
+
 #projects .section-intro h1 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -528,6 +535,9 @@ aside .social a:hover {
         flex-direction: column;
         gap: 2rem;    
     }
+    #projects .section-intro small {
+        display: inline;
+    }
 }
 
 /* ======= Media Queries ======= */
@@ -563,8 +573,12 @@ aside .social a:hover {
         display: none;
     }
 
-    #resume {
+    #inicio #resume {
         display: none;
+    }
+
+    #projects .section-intro small {
+        display: inline;
     }
 }
 /* Media Queries - Celular */
@@ -668,8 +682,16 @@ aside .social a:hover {
         gap: 1rem;
     }
 
+    #about .text-content .card-2, #about .text-content .card-3 {
+        box-shadow: 0 0 3rem rgba(132, 139, 200, 0.6);
+    }
+
     #projects {
         padding: 2rem 1rem;
+    }
+
+    #projects .section-intro small {
+        display: inline;
     }
 
     #projects-wrapper {

@@ -563,11 +563,10 @@ aside .social a:hover {
         display: none;
     }
 
-    #inicio .resume {
+    #resume {
         display: none;
     }
 }
-/* Media Queries - Celular */
 /* Media Queries - Celular */
 @media only screen and (max-width: 478px) {
     h1 {
@@ -635,6 +634,10 @@ aside .social a:hover {
         padding: 10px 0;
         width: 100%;
         text-align: left;
+    }
+
+    #projects .projects-item .overlay.active {
+        background: rgba(0, 0, 0, 0.8);
     }
 
     #inicio {
